@@ -1,0 +1,13 @@
+@mixin mobile ($medida : 760px) {
+    @media screen and (min-width : $medida) {
+        @content;
+    }
+    
+}
+
+@mixin laptop ($medida : 1024px) {
+    @media screen and (min-width : $medida) {
+        @content;
+    }
+    
+}
